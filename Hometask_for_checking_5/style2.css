@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anim{
+    width: 100px;
+    height: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anim::after{
+    content: "loading";
+    animation: textChange 1.5s infinite alternate;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes textChange{
+    0%{
+        background-color: aliceblue;
+        content: "loading";
+        font-style: italic;
+        color: rgb(44, 44, 44);
+    }
+    33%{
+        background-color: rgb(213, 213, 213);
+        content: "loading.";
+        font-style: italic;
+        color: rgb(110, 109, 109);
+    }
+    66%{
+        background-color: rgb(147, 147, 147);
+        content: "loading..";
+        font-style: italic;
+        color:rgb(203, 202, 202);
+    }
+    100%{
+        background-color: rgb(106, 106, 106);
+        content: "loading...";
+        font-style: italic;
+        color:rgb(234, 234, 234);
+    }
+}
