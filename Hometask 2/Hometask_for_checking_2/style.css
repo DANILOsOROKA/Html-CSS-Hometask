@@ -1,0 +1,21 @@
+.mounth{
+    border-radius: 7%;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: #7cbf7c;
+    height: 150px;
+    width: 200px;
+}
+.Year{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+p{
+    font-size: 10px;
+}
+body{
+    background-color: aquamarine;
+}
