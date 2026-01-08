@@ -1,0 +1,42 @@
+html{
+            scroll-behavior: smooth;
+        }
+        section{
+            height: 100vh;
+            text-align: center;
+        }
+        a{
+            color: black;
+            font-size: 40px;
+            text-decoration: none;
+            scroll-behavior: smooth;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #section-header{
+            background-color: aqua;
+        }
+        #section-main{
+            background-color: blanchedalmond;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        #section-footer{
+            background-color: cadetblue;
+            display: flex;
+            justify-content: center;
+            align-items:flex-end;
+        }
+        h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
